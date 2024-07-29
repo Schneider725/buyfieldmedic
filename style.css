@@ -19,7 +19,7 @@ img {
     width: 50%;
     padding: 20px;
     border-radius: 10%;
-    border: #9a2d2f 2px solid;
+    border: #9a2d2f 3px solid;
 }
 .wrapper > * {
     flex: 1;
@@ -72,4 +72,10 @@ img {
 .stock {
     margin-top: 3px;
     font-size: x-small;
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+    }
 }
